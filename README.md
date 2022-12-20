@@ -3,7 +3,7 @@
 
 ## Overview
 
-By using the ERC20Bridgeable token extension, a project can enable their token to be fully and natively cross chain just as easily as launching a standard non-bridgeable token. Developers are still free to add in their own tokenomics and features. 
+By using the ERC721Bridgeable NFT extension, a project can enable their token to be fully and natively cross chain just as easily as launching a standard non-bridgeable token. Developers are still free to add in their own tokenomics and features. 
 
 
 ## Security
@@ -25,7 +25,7 @@ Projects/Developers have the ability to run validation miners themselves, and re
 
 ## Implementation
 
-Implementation of the ERC721Bridgeable token extension is no different than using the standard ERC721 extension. There has only been one addition on the implementing contract side, which is the requirement to add in the address of the TBaaS bridge in the constructor when deploying.
+Implementation of the ERC721Bridgeable NFT extension is no different than using the standard ERC721 extension. There has only been one addition on the implementing contract side, which is the requirement to add in the address of the TBaaS bridge in the constructor when deploying.
 
 ```c
 contract ExampleBridgeNFT is ERC721Bridgeable {
